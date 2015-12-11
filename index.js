@@ -1,7 +1,7 @@
 'use strict'
 
 module.exports = {
-    jonOk: function(){
+    jsonOk: function(){
         return function(req, res, next){
             res.jsonOk = function(data) {
                 var result = {
